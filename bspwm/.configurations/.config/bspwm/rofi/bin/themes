@@ -99,7 +99,7 @@ case $chosen in
 	      bash ${BSP}/set-theme 'wave.jpg' 'wave' 'Wave' 'Luv-Folders-Dark' 'Vimix'   
         ;;
     $theme_21)
-        bash ${BSP}/set-theme 'tokyo-blue.jpg' 'tokyo-night' 'Tokyonight-Dark-BL' 'tokyonight_dark' 'Vimix'
+        bash ${BSP}/set-theme 'Meta.jpg' 'tokyo-night' 'Tokyonight-Dark-BL' 'tokyonight_dark' 'Vimix'
         # bash ${BSP}/set-theme '/usr/share/backgrounds/' '.config/bspwm/themes/[theme-name]' '/usr/share/themes/' '/usr/share/icons'
         ;;
 
