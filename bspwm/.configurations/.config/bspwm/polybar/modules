@@ -308,7 +308,7 @@ format-mounted = <label-mounted>
 format-mounted-background = ${color.ALTBLACK}
 format-mounted-padding = 2
 
-format-mounted-prefix = 
+format-mounted-prefix =  
 format-mounted-prefix-font = 2
 format-mounted-prefix-foreground = ${color.YELLOW}
 
