@@ -1,0 +1,18 @@
+#!/bin/bash
+ 
+### Starts Polybar
+    .icewm/polybar/launch.sh --grayblocks &
+###
+
+### Opens Thunar And Steam
+    thunar &
+    steam &
+###
+
+### Opens Introduction On Start
+    alacritty -e vim -R ~/.icewm/Introduction.txt &
+###
+
+### Sets Wallpaper
+    icewmbg --image="~/.icewm/OpenOcean.jpg" 
+###

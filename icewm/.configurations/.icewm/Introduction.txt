@@ -1,0 +1,19 @@
+If you're lost this file is for you!
+
+Thunar will open alongside this text file and there is a reason for that.
+I'll teach you some essential keybindings to navigate through the system.
+For better understanding go to ~/.icewm/keys and see all possible keybindings there.
+
+Super+c - Opens Rofi to search for all your apps.
+Super+x - Opens the powermenu so you can Shutdown, Restart, Logout and others...
+Super+Enter - Opens Alacritty
+Super+Shift+f - Opens thunar file explorer. 
+Ctrl+Alt+b - Opens a tab in your default browser with duckduckgo.
+Super+Shift+r - Restarts IceWM.
+
+That's all! Hope you have a great day.
+
+Check my github for more! 
+	- https://github.com/AtomicFeasT
+
+PS: If you want to prevent this file from starting go to ~/.icewm/startup and remove the line that contains "Introduction.txt".

@@ -1,0 +1,11 @@
+# IceWM Custom Preferences (Needs To Be Sorted Out For The Best Possible)
+
+# Disable=0/Enable=1 TaskBar
+	ShowTaskBar=0 
+#
+
+# Display Only One Workspace
+	WorkspaceNames="1"
+#
+
+# KeySysShowDesktop=”Alt+Ctrl+d”

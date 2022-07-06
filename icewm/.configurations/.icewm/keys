@@ -1,0 +1,42 @@
+# A list of all valid keyboard symbols can be found in
+# /usr/include/X11/keysym.h, keysymdefs.h, XF86keysym.h, ...
+# You'll have to omit XK_ prefixs and to replace XF86XK_ prefixes by
+# XF86. Valid modifiers are Alt, Ctrl, Shift, Meta, Super and Hyper.
+
+### Start And Kill Polybar
+	key "Super+Alt+b" .icewm/polybar/launch.sh --grayblocks
+	key "Super+Shift+b" killall -q polybar
+###
+
+### Run Rofi
+	key "Super+c" .icewm/rofi/launchers/text/launcher.sh
+###
+
+### Power Menu
+	key "Super+x" .icewm/rofi/powermenu/powermenu.sh
+###
+
+### Open Terminal
+	key "Super+Return"          alacritty
+###
+
+### Open Browser Search Engine
+	key "Ctrl+Alt+b"            xdg-open https://duckduckgo.com/
+###
+
+### Open Thunar
+	key "Super+Shift+f" thunar
+###
+
+### Open Steam
+	key "Ctrl+Alt+s"            steam
+###
+
+### Picom
+	key "Super+p"               picom
+	key "Super+v"               killall -q picom
+###
+
+### Reload IceWM
+	key "Super+Shift+r"         icewm -r
+###
