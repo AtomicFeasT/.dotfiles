@@ -167,7 +167,7 @@
 ###
 
 ### Déjà Dup
-	figlet Installing Deja Dup
+	figlet Installing Backups 
 	yay -S deja-dup
 ###
 
