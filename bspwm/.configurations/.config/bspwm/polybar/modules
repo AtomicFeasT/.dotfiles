@@ -248,7 +248,7 @@ warn-percentage = 95
 format = <label>
 format-padding = 2
 format-background = ${color.ALTBLACK}
-format-prefix = 
+format-prefix = 
 format-prefix-foreground = ${color.RED}
 
 label = " CPU %percentage%%"
