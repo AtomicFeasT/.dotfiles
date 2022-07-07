@@ -48,7 +48,7 @@ font-3 = "Iosevka:style=bold:"size=12;3"
 
 modules-left = mod sep bspwm 
 modules-center = date sep spotify 
-modules-right = volume sep ethernet sep cpu sep used-memory sep filesystem sep 
+modules-right = volume sep ethernet sep cpu sep temperature sep used-memory sep filesystem sep 
 
 separator =
 spacing = 0 
