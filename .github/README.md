@@ -28,20 +28,20 @@
 
 <h1 id="SystemInfo">System Info</h1>
 
-| Tasks             | Name                                                                                         |
-| ----------------- | ---------------------------------------------------------------------------------------------|
-| OS                | [Archcraft](https://archcraft.io/)                                                           |
+| Tasks             | Name                                                                                          |
+| ----------------- | ----------------------------------------------------------------------------------------------|
+| OS                | [Archcraft](https://archcraft.io/)                                                            |
 | WM                | [BSPWM](https://github.com/baskerville/bspwm), [IceWM](https://ice-wm.org)                    |
-| Compositor        | [Picom](https://github.com/yshui/picom)                                                      |
-| Shell             | [ZSH](https://www.zsh.org/)                                                                  |
-| Terminal          | [Alacritty](https://github.com/alacritty/alacritty)                                          |
-| Theme             | [Tokyo Night (Adapted For Archcraft)](https://github.com/folke/tokyonight.nvim)              |
-| Editor            | [LunarVim](https://www.lunarvim.org/#opinionated)                                            |
-| Web Browser       | [Brave](https://brave.com/)                                                                  |
-| Bar               | [Polybar](https://github.com/polybar/polybar)                                                |
-| Music Player      | [NCMPCPP](https://github.com/ncmpcpp/ncmpcpp)                                                |
-| App Launcher      | [Rofi](https://github.com/davatorium/rofi/)                                                  |
-| File Manager      | [Thunar](https://wiki.archlinux.org/title/thunar), [Ranger](https://github.com/ranger/ranger)|
+| Compositor        | [Picom](https://github.com/yshui/picom)                                                       |
+| Shell             | [ZSH](https://www.zsh.org/)                                                                   |
+| Terminal          | [Alacritty](https://github.com/alacritty/alacritty)                                           |
+| Theme             | [Tokyo Night (Adapted For Archcraft)](https://github.com/folke/tokyonight.nvim)               |
+| Editor            | [LunarVim](https://www.lunarvim.org/#opinionated)                                             |
+| Web Browser       | [Brave](https://brave.com/)                                                                   |
+| Bar               | [Polybar](https://github.com/polybar/polybar)                                                 |
+| Music Player      | [NCMPCPP](https://github.com/ncmpcpp/ncmpcpp)                                                 |
+| App Launcher      | [Rofi](https://github.com/davatorium/rofi/)                                                   |
+| File Manager      | [Thunar](https://wiki.archlinux.org/title/thunar), [Ranger](https://github.com/ranger/ranger) |
 
 <h1 id="Dependencies">Dependencies And Programs</h1>
 Be sure to read both mandatory programs thoroughly.
