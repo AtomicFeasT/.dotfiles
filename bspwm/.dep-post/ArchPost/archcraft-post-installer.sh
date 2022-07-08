@@ -111,11 +111,6 @@
 ###
 
 # Video, Image And Audio
-### DaVinci Resolve
-  figlet Installing DaVinci Resolve
-  yay -S davinci-resolve
-###
-
 ### OBS Studio
 	figlet Installing OBS Studio
 	yes | yay -S obs-studio
