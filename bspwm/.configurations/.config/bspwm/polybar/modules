@@ -100,6 +100,8 @@ card = ${system.graphics_card}
 enable-scroll = true
 
 format = <ramp> <label>
+format-background = ${color.ALTBLACK}
+format-padding = 2
 
 label = %percentage%%
 
@@ -133,7 +135,11 @@ format-charging = <animation-charging> <label-charging>
 format-charging-prefix = 
 
 format-discharging = <ramp-capacity> <label-discharging>
+format-discharging-background = ${color.ALTBLACK}
+format-discharging-padding = 2
 
+format-full-background = ${color.ALTBLACK}
+format-full-padding = 2
 format-full = <label-full>
 format-full-prefix = " "
 format-full-prefix-font = 2
