@@ -133,6 +133,8 @@ time-format = %H:%M
 
 format-charging = <animation-charging> <label-charging>
 format-charging-prefix = 
+format-charging-background = ${color.ALTBLACK}
+format-charging-padding = 2
 
 format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-background = ${color.ALTBLACK}
@@ -272,6 +274,8 @@ format-disconnected = <label-disconnected>
 format-disconnected-prefix = " "
 format-disconnected-prefix-font = 3
 format-disconnected-prefix-foreground = ${color.RED}
+format-disconnect-background = ${color.ALTBLACK}
+format-disconnect-padding = 2
 
 label-connected = "%{A1:networkmanager_dmenu &:}%downspeed% | %upspeed%%{A}"
 label-disconnected = "%{A1:networkmanager_dmenu &:}Offline%{A}"
