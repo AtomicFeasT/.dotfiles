@@ -208,3 +208,7 @@ fi
 
 # Makes You Able To Open LunarVim Writing lvim In Terminal
 export PATH="$HOME/.local/bin:$PATH"
+# pnpm
+export PNPM_HOME="/home/atomicfeast/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
