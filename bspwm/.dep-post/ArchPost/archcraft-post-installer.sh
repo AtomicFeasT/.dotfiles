@@ -231,7 +231,7 @@
 # Other Settings
 ### Fonts For The System
 	figlet Installing Fonts
-	yes | yay -S powerline powerline-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts
+	yes | yay -S powerline powerline-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts ttf-ms-fonts ttf-linux-libertine ttf-dejavu 
 ###
 
 ### Apply Dark Mode
