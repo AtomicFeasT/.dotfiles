@@ -274,8 +274,8 @@ format-disconnected = <label-disconnected>
 format-disconnected-prefix = " "
 format-disconnected-prefix-font = 3
 format-disconnected-prefix-foreground = ${color.RED}
-format-disconnect-background = ${color.ALTBLACK}
-format-disconnect-padding = 2
+format-disconnected-background = ${color.ALTBLACK}
+format-disconnected-padding = 2
 
 label-connected = "%{A1:networkmanager_dmenu &:}%downspeed% | %upspeed%%{A}"
 label-disconnected = "%{A1:networkmanager_dmenu &:}Offline%{A}"
