@@ -255,9 +255,38 @@ click-middle = playerctl --player=spotify previous
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
 ; If you use both a wired and a wireless network, add both modules in config.
-[module/ethernet]
+; [module/ethernet]
+; type = internal/network
+; interface = ${system.network_interface}
+
+; interval = 1.0
+; accumulate-stats = true
+; unknown-as-up = true
+
+; format-connected = <label-connected>
+; format-connected-background = ${color.ALTBLACK}
+; format-connected-padding = 2
+; format-connected-prefix = " "
+; format-connected-prefix-font = 3
+; format-connected-prefix-foreground = ${color.CYAN}
+
+; format-disconnected = <label-disconnected>
+; format-disconnected-prefix = " "
+; format-disconnected-prefix-font = 3
+; format-disconnected-prefix-foreground = ${color.RED}
+; format-disconnected-background = ${color.ALTBLACK}
+; format-disconnected-padding = 2
+
+; label-connected = "%{A1:networkmanager_dmenu &:}%downspeed% | %upspeed%%{A}"
+; label-disconnected = "%{A1:networkmanager_dmenu &:}Offline%{A}"
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/wireless-network]
 type = internal/network
-interface = ${system.network_interface}
+
+interface = wlan1
+; interface = ${system.network_interface}
 
 interval = 1.0
 accumulate-stats = true
@@ -280,38 +309,32 @@ format-disconnected-padding = 2
 label-connected = "%{A1:networkmanager_dmenu &:}%downspeed% | %upspeed%%{A}"
 label-disconnected = "%{A1:networkmanager_dmenu &:}Offline%{A}"
 
-;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
-
-[module/network]
+[module/wired-network]
 type = internal/network
 
-interface = ${system.network_interface}
+; interface = ${system.network_interface}
+interface = enp5s0
 
 interval = 1.0
-
-;;ping-interval = 3
-;;udspeed-minwidth = 5
-
 accumulate-stats = true
 unknown-as-up = true
 
-format-connected = <ramp-signal> <label-connected>
+format-connected = <label-connected>
+format-connected-background = ${color.ALTBLACK}
+format-connected-padding = 2
+format-connected-prefix = " "
+format-connected-prefix-font = 3
+format-connected-prefix-foreground = ${color.CYAN}
 
 format-disconnected = <label-disconnected>
 format-disconnected-prefix = " "
 format-disconnected-prefix-font = 3
 format-disconnected-prefix-foreground = ${color.RED}
+format-disconnected-background = ${color.ALTBLACK}
+format-disconnected-padding = 2
 
-label-connected = "%{A1:nmd &:}%essid%%{A}"
-label-disconnected = "%{A1:nmd &:}Disconnected%{A}"
-
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
-ramp-signal-font = 3
-ramp-signal-foreground = ${color.CYAN}
+label-connected = "%{A1:networkmanager_dmenu &:}%downspeed% | %upspeed%%{A}"
+label-disconnected = "%{A1:networkmanager_dmenu &:}Offline%{A}"
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
