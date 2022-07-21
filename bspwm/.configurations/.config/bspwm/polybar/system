@@ -23,6 +23,7 @@
 adapter = ACAD
 battery = BAT0
 graphics_card = amd_gpu 
-network_interface = enp5s0 
+wired_interface = enp5s0 
+wireless_interface = wlan0 
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_

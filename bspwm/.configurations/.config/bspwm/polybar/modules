@@ -285,7 +285,7 @@ click-middle = playerctl --player=spotify previous
 [module/wireless-network]
 type = internal/network
 
-interface = wlan1
+interface = ${system.wireless_interface}
 ; interface = ${system.network_interface}
 
 interval = 1.0
@@ -313,7 +313,7 @@ label-disconnected = "%{A1:networkmanager_dmenu &:}Offline%{A}"
 type = internal/network
 
 ; interface = ${system.network_interface}
-interface = enp5s0
+interface = ${system.wired_interface}
 
 interval = 1.0
 accumulate-stats = true
