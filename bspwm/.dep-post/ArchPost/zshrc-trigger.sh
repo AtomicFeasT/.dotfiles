@@ -10,6 +10,7 @@ if [ -n "$(xinput | grep 'Logitech G203 LIGHTSYNC Gaming Mouse')" ];
 fi
 
 # Sets Keyboard Layout As ABNT2 If PT-BR
+# https://unix.stackexchange.com/questions/269159/problem-of-cant-set-locale-make-sure-lc-and-lang-are-correct
 if [ LC_NAME = pt_BR.UTF-8 ];
   then
     setxkbmap -model abnt2 -layout br -variant abnt2
