@@ -112,7 +112,6 @@ Be sure to read both mandatory programs thoroughly.
   cd ~
   cd .dotfiles/bspwm
   rm -rf ~/.config/bspwm
-  rm -rf ~/.config/sxhkd
   rm -rf ~/.config/lvim
   stow --target=${HOME} .configurations
   ```
