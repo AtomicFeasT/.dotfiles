@@ -88,6 +88,7 @@
 
 ### PNPM
 	yes | yay -S pnpm
+	pnpm setup
 ###
 
 ### Node Version Manager
@@ -104,6 +105,11 @@
 	yes | yay -S vscodium
 ###
 
+### Visual Studio Code 
+	figlet Installing VSCode
+	yes | yay -S visual-studio-code-bin 
+###
+
 ### NeoVim
 	figlet Installing NeoVim
 	yes | yay -S neovim
@@ -111,7 +117,7 @@
 
 ### LunarVim
 	figlet Installing LunarVim
-  bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+	bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 ###
 
 # Video, Image And Audio
