@@ -95,7 +95,7 @@ label-separator-foreground = ${color.BACKGROUND}
 [module/brightness]
 type = internal/backlight
 
-card = ${system.graphics_card}
+card = ${system.sys_graphics_card}
 
 enable-scroll = true
 
@@ -125,8 +125,8 @@ type = internal/battery
 
 full-at = 99
 
-battery = ${system.battery}
-adapter = ${system.adapter}
+battery = ${system.sys_battery}
+adapter = ${system.sys_adapter}
 
 poll-interval = 2
 time-format = %H:%M
@@ -387,7 +387,7 @@ format-prefix-foreground = ${color.ALTGREEN}
 ; $ for i in /sys/class/hwmon/hwmon*/temp*_input ; do echo "$(<$(dirname $i)/name): $(cat ${i%_*}_label 2>/dev/null || echo $(basename ${i%_*})) $(readlink -f $i)"; done
 ; to find path to desired file
 ; Default reverts to thermal zone setting
-hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon2/temp1_input
+hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon3/temp1_input
 
 ; Base temperature for where to start the ramp (in degrees celsius)
 ; Default: 0
