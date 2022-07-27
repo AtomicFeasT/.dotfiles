@@ -171,6 +171,11 @@
 	yes | yay -S evolution
 ###
 
+###
+	figlet Installing Okular
+	yes | yay -S okular
+###
+
 ### Déjà Dup
 	figlet Installing Backups 
 	yay -S deja-dup
