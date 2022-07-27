@@ -173,7 +173,7 @@
 
 ###
 	figlet Installing Okular
-	yes | yay -S okular
+	yay -S okular
 ###
 
 ### Déjà Dup
