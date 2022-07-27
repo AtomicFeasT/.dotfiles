@@ -301,13 +301,12 @@ format-connected-prefix-foreground = ${color.CYAN}
 
 format-disconnected = <label-disconnected>
 format-disconnected-prefix = " "
-format-disconnected-prefix-font = 3
 format-disconnected-prefix-foreground = ${color.RED}
 format-disconnected-background = ${color.ALTBLACK}
 format-disconnected-padding = 2
 
 label-connected = "%{A1:networkmanager_dmenu &:}%downspeed% | %upspeed%%{A}"
-label-disconnected = "%{A1:networkmanager_dmenu &:}%{A}"
+label-disconnected = "%{A1:networkmanager_dmenu &:}睊%{A}"
 
 [module/wired-network]
 type = internal/network
@@ -334,7 +333,7 @@ format-disconnected-background = ${color.ALTBLACK}
 format-disconnected-padding = 2
 
 label-connected = "%{A1:networkmanager_dmenu &:}%downspeed% | %upspeed%%{A}"
-label-disconnected = "%{A1:networkmanager_dmenu &:}%{A}"
+label-disconnected = "%{A1:networkmanager_dmenu &:}%{A}"
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
