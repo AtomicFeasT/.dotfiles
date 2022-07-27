@@ -307,7 +307,7 @@ format-disconnected-background = ${color.ALTBLACK}
 format-disconnected-padding = 2
 
 label-connected = "%{A1:networkmanager_dmenu &:}%downspeed% | %upspeed%%{A}"
-label-disconnected = "%{A1:networkmanager_dmenu &:}Offline%{A}"
+label-disconnected = "%{A1:networkmanager_dmenu &:}%{A}"
 
 [module/wired-network]
 type = internal/network
@@ -334,7 +334,7 @@ format-disconnected-background = ${color.ALTBLACK}
 format-disconnected-padding = 2
 
 label-connected = "%{A1:networkmanager_dmenu &:}%downspeed% | %upspeed%%{A}"
-label-disconnected = "%{A1:networkmanager_dmenu &:}Offline%{A}"
+label-disconnected = "%{A1:networkmanager_dmenu &:}%{A}"
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
