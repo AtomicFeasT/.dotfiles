@@ -48,7 +48,7 @@
 
 ### Mesa
 	figlet Installing Mesa
-	yes | yay -S mesa
+	yes | yay -S mesa lib32-mesa
 ###
 
 # Internet
@@ -171,7 +171,7 @@
 	yes | yay -S evolution
 ###
 
-###
+### Okular
 	figlet Installing Okular
 	yay -S okular
 ###
